@@ -9,7 +9,7 @@ LOCAL_MODULE := camera.$(TARGET_BOARD_PLATFORM)
 
 LOCAL_MODULE_TAGS := optional
 
-LOCAL_SRC_FILES := cameraHAL.cpp
+LOCAL_SRC_FILES := cameraHAL.cpp OverlayHtc.cpp
 LOCAL_C_INCLUDES := $(TOP)/frameworks/base/include
 
 LOCAL_SHARED_LIBRARIES := liblog libutils libcutils
